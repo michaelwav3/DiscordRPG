@@ -89,10 +89,10 @@
   },
   "381840303637659669": {
     "UID": "381840303637659669",
-    "balance": 1321,
-    "HP": 1330,
+    "balance": 2821,
+    "HP": 1072,
     "MP": 1300,
-    "SP": 1110,
+    "SP": 607,
     "baseStrength": 100,
     "baseAgility": 111,
     "baseIntelligence": 105,
@@ -137,7 +137,8 @@
       "alpha_bat_wing",
       "aeolus",
       "tsunami",
-      "poseidon"
+      "poseidon",
+      "stab"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -147,7 +148,7 @@
       "rightarm": "frostspire_staff",
       "leftarm": null,
       "accessory": null,
-      "skill": "stab",
+      "skill": "devour",
       "spell": "suffocate"
     },
     "quests": [
