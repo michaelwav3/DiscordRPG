@@ -326,6 +326,30 @@ function interact(Message, userData) {
             return;
         }
     }
+    //SCORCHING DESERT
+    if ((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "sand worms" && user.interactables.includes("Sand Worms")) {
+        if (user.location === "Scorching Desert") {
+            const skeleton = {
+                name: "Sand Worm",
+                maxHp: 1500,
+                str: 120,
+                speed: 62,
+                fleeResist: 0.5,
+                coinReward: 500,
+                int: 10,
+                maxSp: 2000,
+                maxMp: 100,
+                skillIds: ["devour"], // must exist in ITEMS with type: "skill"
+                skillChance: 0.2, // 20% chance to try a skill
+                drops: [
+                    { itemId: "devour", chance: 0.01 },
+                ],
+            };
+            (0, combat_1.startCombat)(Message, userData, skeleton);
+            return;
+            return;
+        }
+    }
     //CAPITAL GRAVEYARD
     if ((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "capital graveyard" && user.interactables.includes("Capital Graveyard")) {
         if (user.location === "Western Capital") {

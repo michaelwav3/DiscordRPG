@@ -420,7 +420,7 @@ if((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLo
  name: "Sand Worm",
   maxHp: 1500,
   str: 120,
-  speed: 52,
+  speed: 62,
   fleeResist: 0.5,
   coinReward: 500,
   int: 10,
