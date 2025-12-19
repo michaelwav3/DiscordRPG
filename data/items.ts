@@ -356,6 +356,26 @@ export const ITEMS: Record<string, ItemDef> = {
     },
   },
 
+  devour: {
+    id: "devour",
+    name: "Devour",
+    type: "skill",          
+    abilityType: "attack",
+    costSP: 650,             
+    damageAmount: 6.0,
+    buffType: "",
+    buff: 0,
+    healAmount: 0,
+    consumable: false,
+    description: "An ability used by many powerful beats, skill scroll.",
+    status: {
+      type: "poison",
+      duration: 2,
+      potency: 350,
+      chance: 0.3,
+    },
+  },
+
   // SPELL SCROLLS
   minor_heal: {
     id: "minor_heal",

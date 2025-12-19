@@ -91,7 +91,7 @@
     "UID": "381840303637659669",
     "balance": 8844,
     "HP": 1330,
-    "MP": 896,
+    "MP": 1270,
     "SP": 1050,
     "baseStrength": 100,
     "baseAgility": 105,
@@ -103,7 +103,7 @@
     "intelligence": 127,
     "vitality": 133,
     "perception": 11,
-    "location": "Inner Mountain",
+    "location": "Scorching Desert",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -174,9 +174,10 @@
       }
     ],
     "interactables": [
-      "Mountain Entrance",
-      "Direbats",
-      "Mountain Exit"
+      "Mountain Exit",
+      "Sand Worms",
+      "Oasis",
+      "Desert Road"
     ],
     "Interactables": [
       "Capital Bank",
@@ -308,9 +309,9 @@
   },
   "412365502112071681": {
     "UID": "412365502112071681",
-    "balance": 1754,
+    "balance": 1254,
     "HP": 1310,
-    "MP": 1338,
+    "MP": 1540,
     "SP": 1130,
     "baseStrength": 100,
     "baseAgility": 113,
