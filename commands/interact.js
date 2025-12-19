@@ -327,7 +327,7 @@ function interact(Message, userData) {
         }
     }
     //SCORCHING DESERT
-    if ((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "sand worms" && user.interactables.includes("Sand Worms")) {
+    if (((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "sand worms") || (Message.content.split(" ")[1]?.toLowerCase() === "sand") && user.interactables.includes("Sand Worms")) {
         if (user.location === "Scorching Desert") {
             const skeleton = {
                 name: "Sand Worm",

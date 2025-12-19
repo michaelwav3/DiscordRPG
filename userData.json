@@ -89,8 +89,8 @@
   },
   "381840303637659669": {
     "UID": "381840303637659669",
-    "balance": 7,
-    "HP": 1330,
+    "balance": 0,
+    "HP": 400,
     "MP": 1270,
     "SP": 1110,
     "baseStrength": 100,
@@ -136,8 +136,8 @@
       "yeti_pelt",
       "iron_chestplate",
       "airPalm",
-      "suffocate",
-      "alpha_bat_wing"
+      "alpha_bat_wing",
+      "aeolus"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -148,7 +148,7 @@
       "leftarm": null,
       "accessory": null,
       "skill": "stab",
-      "spell": "aeolus"
+      "spell": "suffocate"
     },
     "quests": [
       "Tutorial",
