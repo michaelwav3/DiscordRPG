@@ -309,7 +309,7 @@
   },
   "412365502112071681": {
     "UID": "412365502112071681",
-    "balance": 1254,
+    "balance": 3000,
     "HP": 1310,
     "MP": 1540,
     "SP": 1130,
@@ -323,7 +323,7 @@
     "intelligence": 154,
     "vitality": 131,
     "perception": 100,
-    "location": "Inner Mountain",
+    "location": "Scorching Desert",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -353,8 +353,8 @@
       "yeti_pelt",
       "iron_chestplate",
       "airPalm",
-      "darkmagic",
-      "alpha_bat_wing"
+      "alpha_bat_wing",
+      "poseidon"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -365,7 +365,7 @@
       "leftarm": null,
       "accessory": null,
       "skill": "stab",
-      "spell": "poseidon"
+      "spell": "darkmagic"
     },
     "quests": [
       "Tutorial",
@@ -391,9 +391,10 @@
       }
     ],
     "interactables": [
-      "Mountain Entrance",
-      "Dire Bats",
-      "Mountain Exit"
+      "Mountain Exit",
+      "Sand Worms",
+      "Oasis",
+      "Desert Road"
     ],
     "Interactables": [
       "Capital Bank",
