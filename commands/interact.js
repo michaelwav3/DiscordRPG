@@ -311,6 +311,7 @@ function interact(Message, userData) {
                 Message.channel.send("You walk through and find yourself in the Scorching Desert.");
                 user.location = "Scorching Desert";
                 user.interactables = ["Mountain Exit", "Sand Worms", "Oasis", "Desert Road"];
+                return;
             }
             else {
                 //@ts-ignore

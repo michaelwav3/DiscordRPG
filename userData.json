@@ -89,9 +89,9 @@
   },
   "381840303637659669": {
     "UID": "381840303637659669",
-    "balance": 344,
-    "HP": 1130,
-    "MP": 1270,
+    "balance": 8844,
+    "HP": 1330,
+    "MP": 896,
     "SP": 1050,
     "baseStrength": 100,
     "baseAgility": 105,
@@ -101,9 +101,9 @@
     "strength": 100,
     "agility": 105,
     "intelligence": 127,
-    "vitality": 113,
+    "vitality": 133,
     "perception": 11,
-    "location": "Icy Mountains",
+    "location": "Inner Mountain",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -130,15 +130,17 @@
       "wooden_stick",
       "iron_helmet",
       "greatFireball",
-      "yeti_pelt",
       "waterWall",
-      "airPalm",
-      "yeti_fur",
       "iron_sword",
-      "suffocate"
+      "yeti_pelt",
+      "yeti_pelt",
+      "iron_chestplate",
+      "airPalm",
+      "suffocate",
+      "alpha_bat_wing"
     ],
     "equipment": {
-      "body": "iron_chestplate",
+      "body": "yeti_fur_cloak",
       "head": "blindfold",
       "legs": "iron_leggings",
       "boots": "iron_boots",
@@ -172,10 +174,9 @@
       }
     ],
     "interactables": [
-      "Road",
-      "Inner Mountain",
-      "Ice Elementals",
-      "Otzi"
+      "Mountain Entrance",
+      "Direbats",
+      "Mountain Exit"
     ],
     "Interactables": [
       "Capital Bank",
@@ -199,7 +200,7 @@
   },
   "1190132846409564170": {
     "UID": "1190132846409564170",
-    "balance": 15,
+    "balance": 0,
     "HP": 300,
     "MP": 250,
     "SP": 240,
@@ -213,7 +214,7 @@
     "intelligence": 25,
     "vitality": 30,
     "perception": 10,
-    "location": "Western Capital Graveyard",
+    "location": "Inner Mountain",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -252,8 +253,9 @@
       }
     ],
     "interactables": [
-      "Grave Entrance",
-      "Skeletons"
+      "Mountain Entrance",
+      "Direbats",
+      "Mountain Exit"
     ],
     "Interactables": [
       "Grave Entrance",
@@ -306,19 +308,19 @@
   },
   "412365502112071681": {
     "UID": "412365502112071681",
-    "balance": 0,
-    "HP": 816,
-    "MP": 1500,
+    "balance": 1754,
+    "HP": 1310,
+    "MP": 1338,
     "SP": 1130,
     "baseStrength": 100,
     "baseAgility": 113,
-    "baseIntelligence": 125,
+    "baseIntelligence": 129,
     "baseVitality": 100,
     "basePerception": 100,
     "strength": 100,
     "agility": 113,
-    "intelligence": 150,
-    "vitality": 111,
+    "intelligence": 154,
+    "vitality": 131,
     "perception": 100,
     "location": "Inner Mountain",
     "bank": 0,
@@ -344,14 +346,17 @@
       "waterWall",
       "wooden_stick",
       "yeti_pelt",
-      "yeti_pelt",
-      "yeti_fur",
       "iron_sword",
+      "yeti_fur",
+      "yeti_pelt",
+      "yeti_pelt",
+      "iron_chestplate",
       "airPalm",
-      "poseidon"
+      "darkmagic",
+      "alpha_bat_wing"
     ],
     "equipment": {
-      "body": "iron_chestplate",
+      "body": "yeti_fur_cloak",
       "head": "iron_helmet",
       "legs": null,
       "boots": "iron_boots",
@@ -359,7 +364,7 @@
       "leftarm": null,
       "accessory": null,
       "skill": "stab",
-      "spell": "darkmagic"
+      "spell": "poseidon"
     },
     "quests": [
       "Tutorial",
@@ -386,7 +391,7 @@
     ],
     "interactables": [
       "Mountain Entrance",
-      "Direbats",
+      "Dire Bats",
       "Mountain Exit"
     ],
     "Interactables": [

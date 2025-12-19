@@ -394,6 +394,7 @@ if((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLo
                 Message.channel.send("You walk through and find yourself in the Scorching Desert.");
                 user.location = "Scorching Desert"
                 user.interactables = ["Mountain Exit", "Sand Worms", "Oasis", "Desert Road"]
+                return;
               }else{
                    //@ts-ignore
                 Message.channel.send("The mountain exit is blocked by large rocks. Perhaps something can help you get through?");
