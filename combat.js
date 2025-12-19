@@ -364,7 +364,7 @@ async function startCombat(message, userData, enemyConfig) {
             await safeUpdate(interaction, {
                 content: `✅ **${player.name} wins!**\n` +
                     `${log}\n\n` +
-                    coinText +
+                    `💰 You gained **${enemy.coinReward} coins**!` +
                     lootText,
                 embeds: [buildCombatEmbed()],
                 components: [],
@@ -377,7 +377,7 @@ async function startCombat(message, userData, enemyConfig) {
             await message.channel.send({
                 content: `✅ **${player.name} wins!** (Interaction Failed)\n` +
                     `${log}\n\n` +
-                    coinText +
+                    `💰 You gained **${enemy.coinReward} coins**!` +
                     lootText,
                 embeds: [buildCombatEmbed()],
                 //@ts-ignore
@@ -701,18 +701,10 @@ async function startCombat(message, userData, enemyConfig) {
         const currentPlayer = getCurrentPlayer();
         // Check if it's the player's turn and they are the one clicking.
         if (!currentPlayer || interaction.user.id !== currentPlayer.id) {
-            if (interaction.replied || interaction.deferred) {
-                return;
-            }
-            try {
-                return await interaction.reply({
-                    content: "⏳ It's not your turn.",
-                    ephemeral: true,
-                });
-            }
-            catch {
-                return;
-            }
+            return interaction.reply({
+                content: "⏳ It's not your turn.",
+                ephemeral: true,
+            });
         }
         const playerStatus = processStatuses(currentPlayer);
         if (playerStatus.skipTurn) {
