@@ -294,7 +294,7 @@ exports.ITEMS = {
         name: "Devour",
         type: "skill",
         abilityType: "attack",
-        costSP: 650,
+        costSP: 400,
         damageAmount: 6.0,
         buffType: "",
         buff: 0,
