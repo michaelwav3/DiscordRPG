@@ -1,0 +1,633 @@
+{
+  "288904417036468225": {
+    "UID": "288904417036468225",
+    "balance": 346,
+    "HP": 320,
+    "MP": 500,
+    "SP": 210,
+    "baseStrength": 25,
+    "baseAgility": 21,
+    "baseIntelligence": 50,
+    "baseVitality": 32,
+    "basePerception": 10,
+    "strength": 25,
+    "agility": 21,
+    "intelligence": 50,
+    "vitality": 32,
+    "perception": 10,
+    "location": "Inner Mountain",
+    "bank": 0,
+    "inventory": [
+      "stab",
+      "stab",
+      "stab",
+      "stab",
+      "western_badge",
+      "stab",
+      "stab",
+      "stab",
+      "stab",
+      "stab",
+      "stab",
+      "stab",
+      "fireball",
+      "stab",
+      "stab",
+      "stab",
+      "waterWall",
+      "waterBullet",
+      "waterPrison"
+    ],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": "wooden_stick",
+      "leftarm": null,
+      "accessory": null,
+      "spell": "darkmagic",
+      "skill": "stab"
+    },
+    "quests": [
+      "Tutorial",
+      {
+        "id": "tutorial_bandits",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblins",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblinShaman",
+        "status": "rewarded",
+        "progress": 1
+      }
+    ],
+    "interactables": [
+      "Mountain Entrance",
+      "Direbats",
+      "Mountain Exit"
+    ],
+    "Interactables": [
+      "Capital Bank",
+      "Capital Gate",
+      "Capital Market",
+      "School of Wizardry",
+      "Capital Graveyard",
+      "road"
+    ],
+    "inCombat": false,
+    "combatLocation": null,
+    "element": "water",
+    "elementTier": 3,
+    "elementsUnlocked": [],
+    "waitingForElementChoice": false
+  },
+  "381840303637659669": {
+    "UID": "381840303637659669",
+    "balance": 344,
+    "HP": 1130,
+    "MP": 1270,
+    "SP": 1050,
+    "baseStrength": 100,
+    "baseAgility": 105,
+    "baseIntelligence": 102,
+    "baseVitality": 100,
+    "basePerception": 61,
+    "strength": 100,
+    "agility": 105,
+    "intelligence": 127,
+    "vitality": 113,
+    "perception": 11,
+    "location": "Icy Mountains",
+    "bank": 0,
+    "inventory": [
+      "western_badge",
+      "fireball",
+      "stab",
+      "jetStream",
+      "darkmagic",
+      "flight",
+      "waterPrison",
+      "tsunami",
+      "minor_heal",
+      "earthWall",
+      "earthFlowRiver",
+      "rockTomb",
+      "earthquake",
+      "ragnarok",
+      "fireball",
+      "dragonFlame",
+      "incinerate",
+      "elderFlame",
+      "spooky_bones",
+      "waterBullet",
+      "poseidon",
+      "wooden_stick",
+      "iron_helmet",
+      "greatFireball",
+      "yeti_pelt",
+      "waterWall",
+      "airPalm",
+      "yeti_fur",
+      "iron_sword",
+      "suffocate"
+    ],
+    "equipment": {
+      "body": "iron_chestplate",
+      "head": "blindfold",
+      "legs": "iron_leggings",
+      "boots": "iron_boots",
+      "rightarm": "frostspire_staff",
+      "leftarm": null,
+      "accessory": null,
+      "skill": "stab",
+      "spell": "aeolus"
+    },
+    "quests": [
+      "Tutorial",
+      {
+        "id": "tutorial_bandits",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblins",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblinShaman",
+        "status": "rewarded",
+        "progress": 1
+      },
+      {
+        "id": "otzi_quest",
+        "status": "rewarded",
+        "progress": 1
+      }
+    ],
+    "interactables": [
+      "Road",
+      "Inner Mountain",
+      "Ice Elementals",
+      "Otzi"
+    ],
+    "Interactables": [
+      "Capital Bank",
+      "Capital Gate",
+      "Capital Market",
+      "School of Wizardry",
+      "Capital Graveyard",
+      "road"
+    ],
+    "inCombat": false,
+    "combatLocation": null,
+    "element": null,
+    "elementTier": 5,
+    "elementsUnlocked": [
+      "air",
+      "water",
+      "earth",
+      "fire"
+    ],
+    "waitingForElementChoice": false
+  },
+  "1190132846409564170": {
+    "UID": "1190132846409564170",
+    "balance": 15,
+    "HP": 300,
+    "MP": 250,
+    "SP": 240,
+    "baseStrength": 33,
+    "baseAgility": 24,
+    "baseIntelligence": 25,
+    "baseVitality": 30,
+    "basePerception": 10,
+    "strength": 33,
+    "agility": 24,
+    "intelligence": 25,
+    "vitality": 30,
+    "perception": 10,
+    "location": "Western Capital Graveyard",
+    "bank": 0,
+    "inventory": [
+      "western_badge",
+      "stab",
+      "stab",
+      "fireball",
+      "blindfold",
+      "eurosNegativeStatItem"
+    ],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": "wooden_stick",
+      "leftarm": null,
+      "accessory": null,
+      "skill": "stab"
+    },
+    "quests": [
+      "Tutorial",
+      {
+        "id": "tutorial_bandits",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblins",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblinShaman",
+        "status": "rewarded",
+        "progress": 1
+      }
+    ],
+    "interactables": [
+      "Grave Entrance",
+      "Skeletons"
+    ],
+    "Interactables": [
+      "Grave Entrance",
+      "Skeletons"
+    ],
+    "inCombat": false,
+    "combatLocation": null,
+    "element": "fire",
+    "elementTier": 1,
+    "elementsUnlocked": [],
+    "waitingForElementChoice": false
+  },
+  "475182188573229058": {
+    "UID": "475182188573229058",
+    "balance": 0,
+    "HP": 100,
+    "MP": 100,
+    "SP": 100,
+    "baseStrength": 16,
+    "baseAgility": 10,
+    "baseIntelligence": 10,
+    "baseVitality": 10,
+    "basePerception": 10,
+    "strength": 16,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 10,
+    "perception": 10,
+    "location": "Henry's Basement",
+    "bank": 0,
+    "inventory": [],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": null,
+      "leftarm": null,
+      "accessory": null
+    },
+    "quests": [],
+    "interactables": [
+      "Henry",
+      "Door"
+    ],
+    "Interactables": [
+      "Henry",
+      "door"
+    ]
+  },
+  "412365502112071681": {
+    "UID": "412365502112071681",
+    "balance": 0,
+    "HP": 816,
+    "MP": 1500,
+    "SP": 1130,
+    "baseStrength": 100,
+    "baseAgility": 113,
+    "baseIntelligence": 125,
+    "baseVitality": 100,
+    "basePerception": 100,
+    "strength": 100,
+    "agility": 113,
+    "intelligence": 150,
+    "vitality": 111,
+    "perception": 100,
+    "location": "Inner Mountain",
+    "bank": 0,
+    "inventory": [
+      "western_badge",
+      "fireball",
+      "greatFireball",
+      "dragonFlame",
+      "incinerate",
+      "waterBullet",
+      "waterPrison",
+      "tsunami",
+      "earthFlowRiver",
+      "rockTomb",
+      "earthquake",
+      "elderFlame",
+      "jetStream",
+      "suffocate",
+      "flight",
+      "ragnarok",
+      "aeolus",
+      "earthWall",
+      "waterWall",
+      "wooden_stick",
+      "yeti_pelt",
+      "yeti_pelt",
+      "yeti_fur",
+      "iron_sword",
+      "airPalm",
+      "poseidon"
+    ],
+    "equipment": {
+      "body": "iron_chestplate",
+      "head": "iron_helmet",
+      "legs": null,
+      "boots": "iron_boots",
+      "rightarm": "frostspire_staff",
+      "leftarm": null,
+      "accessory": null,
+      "skill": "stab",
+      "spell": "darkmagic"
+    },
+    "quests": [
+      "Tutorial",
+      {
+        "id": "tutorial_bandits",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblins",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblinShaman",
+        "status": "rewarded",
+        "progress": 1
+      },
+      {
+        "id": "otzi_quest",
+        "status": "rewarded",
+        "progress": 1
+      }
+    ],
+    "interactables": [
+      "Mountain Entrance",
+      "Direbats",
+      "Mountain Exit"
+    ],
+    "Interactables": [
+      "Capital Bank",
+      "Capital Gate",
+      "Capital Market",
+      "School of Wizardry",
+      "Capital Graveyard",
+      "road"
+    ],
+    "inCombat": false,
+    "combatLocation": null,
+    "element": null,
+    "elementTier": 5,
+    "elementsUnlocked": [
+      "fire",
+      "water",
+      "earth",
+      "air"
+    ],
+    "waitingForElementChoice": false
+  },
+  "469703194751008768": {
+    "UID": "469703194751008768",
+    "balance": 400,
+    "HP": 100,
+    "MP": 100,
+    "SP": 120,
+    "baseStrength": 19,
+    "baseAgility": 12,
+    "baseIntelligence": 10,
+    "baseVitality": 10,
+    "basePerception": 10,
+    "strength": 19,
+    "agility": 12,
+    "intelligence": 10,
+    "vitality": 10,
+    "perception": 10,
+    "location": "Goblin Cave",
+    "bank": 0,
+    "inventory": [
+      "stab"
+    ],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": "wooden_stick",
+      "leftarm": null,
+      "accessory": null,
+      "skill": "stab",
+      "spell": null
+    },
+    "quests": [
+      {
+        "id": "tutorial_bandits",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblins",
+        "status": "rewarded",
+        "progress": 5
+      },
+      {
+        "id": "goblinShaman",
+        "status": "active",
+        "progress": 0
+      }
+    ],
+    "interactables": [
+      "Goblins",
+      "Cave Entrance"
+    ],
+    "Interactables": [
+      "Goblin Cave",
+      "Goblin Casino",
+      "Goblin Bank",
+      "Goblin Tavern",
+      "Road"
+    ],
+    "element": null,
+    "elementTier": 0,
+    "elementsUnlocked": [],
+    "waitingForElementChoice": false,
+    "inCombat": false,
+    "combatLocation": null
+  },
+  "788871088674177034": {
+    "UID": "788871088674177034",
+    "balance": 3.6507417809436813,
+    "HP": 100,
+    "MP": 100,
+    "SP": 100,
+    "baseStrength": 18,
+    "baseAgility": 10,
+    "baseIntelligence": 10,
+    "baseVitality": 10,
+    "basePerception": 10,
+    "strength": 18,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 10,
+    "perception": 10,
+    "location": "Bandit Forest",
+    "bank": 0,
+    "inventory": [],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": null,
+      "leftarm": null,
+      "accessory": null,
+      "skill": null,
+      "spell": null
+    },
+    "quests": [],
+    "interactables": [
+      "Bandits",
+      "Door"
+    ]
+  },
+  "584863447079190538": {
+    "UID": "584863447079190538",
+    "balance": 0,
+    "HP": 110,
+    "MP": 100,
+    "SP": 100,
+    "baseStrength": 11,
+    "baseAgility": 10,
+    "baseIntelligence": 10,
+    "baseVitality": 11,
+    "basePerception": 10,
+    "strength": 11,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 11,
+    "perception": 10,
+    "location": "Henry's Basement",
+    "bank": 0,
+    "inventory": [],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": null,
+      "leftarm": null,
+      "accessory": null,
+      "skill": null,
+      "spell": null
+    },
+    "quests": [
+      {
+        "id": "tutorial_bandits",
+        "status": "active",
+        "progress": 0
+      }
+    ],
+    "interactables": [
+      "Henry",
+      "Door"
+    ],
+    "Interactables": [
+      "Henry",
+      "door"
+    ]
+  },
+  "1027701511758823454": {
+    "UID": "1027701511758823454",
+    "balance": 17.957971672881257,
+    "HP": 100,
+    "MP": 100,
+    "SP": 100,
+    "strength": 17,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 10,
+    "perception": 10,
+    "baseStrength": 17,
+    "baseAgility": 10,
+    "baseIntelligence": 10,
+    "baseVitality": 10,
+    "basePerception": 10,
+    "location": "Henry's Basement",
+    "bank": 0,
+    "inventory": [],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": null,
+      "leftarm": null,
+      "accessory": null,
+      "skill": null,
+      "spell": null
+    },
+    "quests": [],
+    "interactables": [
+      "Henry",
+      "Door"
+    ]
+  },
+  "239631525350604801": {
+    "UID": "239631525350604801",
+    "balance": 16.957971672881257,
+    "HP": 100,
+    "MP": 100,
+    "SP": 100,
+    "baseStrength": 17,
+    "baseAgility": 10,
+    "baseIntelligence": 10,
+    "baseVitality": 10,
+    "basePerception": 10,
+    "strength": 17,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 10,
+    "perception": 10,
+    "location": "Henry's Basement",
+    "bank": 0,
+    "inventory": [],
+    "equipment": {
+      "body": null,
+      "head": null,
+      "legs": null,
+      "boots": null,
+      "rightarm": null,
+      "leftarm": null,
+      "accessory": null,
+      "skill": null,
+      "spell": null
+    },
+    "quests": [],
+    "interactables": [
+      "Henry",
+      "Door"
+    ]
+  }
+}
