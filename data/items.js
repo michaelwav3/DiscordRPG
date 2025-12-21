@@ -44,6 +44,16 @@ exports.ITEMS = {
         consumable: false,
         description: "An ancient staff imbued with frost magic.",
     },
+    rngBlade: {
+        id: "rngBlade",
+        name: "RNG Blade",
+        type: "weapon",
+        attack: 1500,
+        buff: 500,
+        buffType: "strength",
+        consumable: false,
+        description: "A blade that does not exist within our reality, imbued with random magic.",
+    },
     //MISC/KEY ITEMS
     western_badge: {
         id: "western_badge",
@@ -72,6 +82,13 @@ exports.ITEMS = {
         type: "misc",
         consumable: false,
         description: "Thick pelt from a yeti, it's surprisingly warm.",
+    },
+    rng_shard: {
+        id: "rng_shard",
+        name: "RNG Shard",
+        type: "misc",
+        consumable: false,
+        description: "A mysterious shard that seems to hold random power.",
     },
     //EQUIPMENT/ARMOR
     leather_cap: {

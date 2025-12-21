@@ -441,6 +441,104 @@ if((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLo
             return
         }
       }
+
+      if(((Message.content.split(" ")[1]?.toLowerCase() === "oasis") && user.interactables.includes("Oasis"))){
+        if(user.location === "Scorching Desert"){
+          //@ts-ignore
+          Message.channel.send("You arrive at a refreshing oasis, with palm trees and a clear pool of water.");
+          user.location = "Oasis"
+          user.interactables = ["Oasis Exit", "Oasis Pool", "Henry's Vacation Home", "Sword Master Mirage"]
+        }}
+
+
+//OASIS
+
+ if(((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "oasis exit") || (Message.content.split(" ")[1]?.toLowerCase() === "exit") && user.interactables.includes("Oasis Exit")){
+        if(user.location === "Oasis"){
+          //@ts-ignore
+          Message.channel.send("You leave the oasis and return to the Scorching Desert.");
+          user.location = "Scorching Desert"
+          user.interactables = ["Mountain Exit", "Sand Worms", "Oasis", "Desert Road"]
+        }}
+
+
+
+  if(((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "oasis pool") || (Message.content.split(" ")[1]?.toLowerCase() === "pool") && user.interactables.includes("Oasis Pool")){
+        if(user.location === "Oasis"){
+          //@ts-ignore
+          Message.channel.send("You take a refreshing dip in the oasis pool. Suddenly, the world transfroms around you as you drift off to sleep...");
+          //@ts-ignore
+          Message.channel.send("**Welcome to ???**");
+          user.location = "RNG World"
+          user.interactables = ["???", "Wake Up"]
+        }}
+
+  
+
+  
+
+//RNG WORLD
+
+ if(((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "wake up") || (Message.content.split(" ")[1]?.toLowerCase() === "wake") && user.interactables.includes("Wake Up")){
+        if(user.location === "RNG World"){
+          //@ts-ignore
+          Message.channel.send("You wake up from your strange dream, finding yourself back at the oasis in the Scorching Desert.");
+          user.location = "Oasis"
+          user.interactables = ["Oasis Exit", "Oasis Pool", "Henry's Vacation Home", "Sword Master Mirage"]
+        }}
+
+if((Message.content.split(" ")[1]?.toLowerCase() === "???") && user.interactables.includes("???")){
+        if(user.location === "RNG World"){
+            const randOne = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randTwo = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randThree = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randFour = Math.floor(Math.random() * 20) + 1; // Random number between 1 and 20
+            const randFive = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randSix = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randSeven = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
+            const skillPool = ["minor_heal", "fireball", "greatFireball", "dragonFlame", "incinerate", "elderFlame","waterBullet","waterWall","waterPrison","tsunami","poseidon","earthWall","earthFlowRiver","rockTomb","earthquake","ragnarok","jetStream","airPalm","suffocate","flight","aeolus","darkmagic","spooky_bones","icicle_crash"];
+            const randSkill = skillPool[Math.floor(Math.random() * skillPool.length)];
+
+               const rngEnemy: EnemyConfig = {
+ name: "???",
+  maxHp: user.maxHp * (randOne/3),
+  str: user.baseStrength * (randTwo/3),
+  speed: user.baseAgility * (randThree/3),
+  fleeResist: 5,
+  coinReward: 100 * (randFour),
+  int: user.baseIntelligence * (randFive/3),
+  maxSp: user.maxSp * (randThree/3),
+  maxMp: user.maxIntelligence * (randSix/3),
+
+  //@ts-ignore
+  skillIds: [randSkill],     // must exist in ITEMS with type: "skill"
+
+  skillChance: 0.01*randSeven, // 1-100% chance to try a skill
+
+  drops: [
+    { itemId: "rng_shard", chance: 1 },
+    { itemId: "rng_shard", chance: 0.1 },
+    { itemId: "rng_shard", chance: 0.2 },
+    { itemId: "rng_shard", chance: 0.3 },
+    { itemId: "rng_shard", chance: 0.4 },
+    { itemId: "rng_shard", chance: 0.5 },
+    { itemId: "rng_shard", chance: 0.04 },
+    { itemId: "rng_shard", chance: 0.03 },
+    { itemId: "rng_shard", chance: 0.02 },
+    { itemId: "rng_shard", chance: 0.01 },
+    { itemId: "rngBlade", chance: 0.0001 }
+
+],}
+
+startCombat(Message, userData, rngEnemy);
+    return;
+
+        }
+}
+  
+
+
+
 //CAPITAL GRAVEYARD
 
       if((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLowerCase() === "capital graveyard" && user.interactables.includes("Capital Graveyard")){
