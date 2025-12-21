@@ -90,8 +90,8 @@
   "381840303637659669": {
     "UID": "381840303637659669",
     "balance": 0,
-    "HP": 160,
-    "MP": 668,
+    "HP": 1200,
+    "MP": 1350,
     "SP": 1110,
     "baseStrength": 100,
     "baseAgility": 111,
@@ -103,7 +103,7 @@
     "intelligence": 135,
     "vitality": 133,
     "perception": 16,
-    "location": "RNG World",
+    "location": "Oasis",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -190,8 +190,10 @@
       }
     ],
     "interactables": [
-      "???",
-      "Wake Up"
+      "Oasis Exit",
+      "Oasis Pool",
+      "Henry's Vacation Home",
+      "Sword Master Mirage"
     ],
     "Interactables": [
       "Capital Bank",
@@ -324,21 +326,21 @@
   },
   "412365502112071681": {
     "UID": "412365502112071681",
-    "balance": 2900,
-    "HP": 1310,
-    "MP": 1540,
+    "balance": 0,
+    "HP": 60,
+    "MP": 1366,
     "SP": 1160,
-    "baseStrength": 100,
+    "baseStrength": 102,
     "baseAgility": 116,
     "baseIntelligence": 129,
     "baseVitality": 100,
     "basePerception": 100,
-    "strength": 100,
+    "strength": 102,
     "agility": 116,
     "intelligence": 154,
     "vitality": 131,
     "perception": 100,
-    "location": "Oasis",
+    "location": "RNG World",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -373,9 +375,11 @@
       "rng_shard",
       "rng_shard",
       "rng_shard",
-      "poseidon",
       "rng_shard",
-      "rng_shard"
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "poseidon"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -412,10 +416,8 @@
       }
     ],
     "interactables": [
-      "Oasis Exit",
-      "Oasis Pool",
-      "Henry's Vacation Home",
-      "Sword Master Mirage"
+      "???",
+      "Wake Up"
     ],
     "Interactables": [
       "Capital Bank",
@@ -425,8 +427,8 @@
       "Capital Graveyard",
       "road"
     ],
-    "inCombat": true,
-    "combatLocation": "RNG World",
+    "inCombat": false,
+    "combatLocation": null,
     "element": null,
     "elementTier": 5,
     "elementsUnlocked": [

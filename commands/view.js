@@ -88,5 +88,13 @@ function view(Message, userData) {
         Message.channel.send("🏜️ You look around to find yourself in the Scorching Desert! The sun blazes overhead, and the heat shimmers off the endless dunes of sand. The air is dry and arid.\n\nYou can Interact with: \nSand Worms\nOasis\n Desert Road\nMountain Exit");
         user.interactables = ["Mountain Exit", "Sand Worms", "Oasis", "Desert Road"];
     }
+    else if (user.location === "Oasis") {
+        //@ts-ignore
+        Message.channel.send("🌴 You look around to find yourself at the Oasis! A small pool of water surrounded by palm trees offers a refreshing respite from the desert heat. The sound of water trickling soothes your senses.\n\nYou can Interact with: \nOasis Exit\nOasis Pool");
+    }
+    else if (user.location === "RNG World") {
+        //@ts-ignore
+        Message.channel.send("Everything around you is incomprehensible\nYou can Interact with:\n???\nWake Up");
+    }
 }
 //# sourceMappingURL=view.js.map
