@@ -388,7 +388,7 @@ function interact(Message, userData) {
     }
     if ((Message.content.split(" ")[1]?.toLowerCase() === "???") && user.interactables.includes("???")) {
         if (user.location === "RNG World") {
-            const randOne = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+            const randOne = Math.floor(Math.random() * 30) + 1; // Random number between 1 and 30
             const randTwo = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
             const randThree = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
             const randFour = Math.floor(Math.random() * 20) + 1; // Random number between 1 and 20
@@ -399,14 +399,14 @@ function interact(Message, userData) {
             const randSkill = skillPool[Math.floor(Math.random() * skillPool.length)];
             const rngEnemy = {
                 name: "???",
-                maxHp: user.maxHp * (randOne / 3),
-                str: user.baseStrength * (randTwo / 3),
-                speed: user.baseAgility * (randThree / 3),
+                maxHp: (user.baseVitality * 10) * (Math.round(randOne / 3)),
+                str: user.baseStrength * (Math.round(randTwo / 3)),
+                speed: user.baseAgility * (Math.round(randThree / 3)),
                 fleeResist: 5,
                 coinReward: 100 * (randFour),
-                int: user.baseIntelligence * (randFive / 3),
-                maxSp: user.maxSp * (randThree / 3),
-                maxMp: user.maxIntelligence * (randSix / 3),
+                int: user.baseIntelligence * (Math.round(randFive / 3)),
+                maxSp: (user.baseAgility * 10) * (Math.round(randThree / 3)),
+                maxMp: user.baseIntelligence * (Math.round(randSix / 3)),
                 //@ts-ignore
                 skillIds: [randSkill], // must exist in ITEMS with type: "skill"
                 skillChance: 0.01 * randSeven, // 1-100% chance to try a skill

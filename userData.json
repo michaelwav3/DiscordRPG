@@ -90,20 +90,20 @@
   "381840303637659669": {
     "UID": "381840303637659669",
     "balance": 0,
-    "HP": 1330,
-    "MP": 1340,
+    "HP": 160,
+    "MP": 668,
     "SP": 1110,
     "baseStrength": 100,
     "baseAgility": 111,
-    "baseIntelligence": 109,
+    "baseIntelligence": 110,
     "baseVitality": 100,
     "basePerception": 66,
     "strength": 100,
     "agility": 111,
-    "intelligence": 134,
+    "intelligence": 135,
     "vitality": 133,
     "perception": 16,
-    "location": "Scorching Desert",
+    "location": "RNG World",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -135,10 +135,25 @@
       "iron_chestplate",
       "airPalm",
       "alpha_bat_wing",
-      "aeolus",
       "tsunami",
       "poseidon",
-      "stab"
+      "stab",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "suffocate",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -149,7 +164,7 @@
       "leftarm": null,
       "accessory": null,
       "skill": "devour",
-      "spell": "suffocate"
+      "spell": "aeolus"
     },
     "quests": [
       "Tutorial",
@@ -175,10 +190,8 @@
       }
     ],
     "interactables": [
-      "Mountain Exit",
-      "Sand Worms",
-      "Oasis",
-      "Desert Road"
+      "???",
+      "Wake Up"
     ],
     "Interactables": [
       "Capital Bank",
@@ -311,7 +324,7 @@
   },
   "412365502112071681": {
     "UID": "412365502112071681",
-    "balance": 500,
+    "balance": 2900,
     "HP": 1310,
     "MP": 1540,
     "SP": 1160,
@@ -325,7 +338,7 @@
     "intelligence": 154,
     "vitality": 131,
     "perception": 100,
-    "location": "Scorching Desert",
+    "location": "Oasis",
     "bank": 0,
     "inventory": [
       "western_badge",
@@ -356,7 +369,13 @@
       "iron_chestplate",
       "airPalm",
       "alpha_bat_wing",
-      "poseidon"
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "rng_shard",
+      "poseidon",
+      "rng_shard",
+      "rng_shard"
     ],
     "equipment": {
       "body": "yeti_fur_cloak",
@@ -393,10 +412,10 @@
       }
     ],
     "interactables": [
-      "Mountain Exit",
-      "Sand Worms",
-      "Oasis",
-      "Desert Road"
+      "Oasis Exit",
+      "Oasis Pool",
+      "Henry's Vacation Home",
+      "Sword Master Mirage"
     ],
     "Interactables": [
       "Capital Bank",
@@ -406,8 +425,8 @@
       "Capital Graveyard",
       "road"
     ],
-    "inCombat": false,
-    "combatLocation": null,
+    "inCombat": true,
+    "combatLocation": "RNG World",
     "element": null,
     "elementTier": 5,
     "elementsUnlocked": [
