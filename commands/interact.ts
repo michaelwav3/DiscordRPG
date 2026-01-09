@@ -447,7 +447,7 @@ if((Message.content.split(" ")[1] + (" ") + Message.content.split(" ")[2])?.toLo
           //@ts-ignore
           Message.channel.send("You arrive at a refreshing oasis, with palm trees and a clear pool of water.");
           user.location = "Oasis"
-          user.interactables = ["Oasis Exit", "Oasis Pool", "Henry's Vacation Home", "Sword Master Mirage"]
+          user.interactables = ["Oasis Exit", "Oasis Pool", "Henry's Vacation Home", "Osiris"]
         }}
 
 
